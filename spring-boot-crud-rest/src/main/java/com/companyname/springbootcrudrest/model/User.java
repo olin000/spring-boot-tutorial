@@ -30,7 +30,7 @@ public class User {
 	private Date createdAt;
 	private String createdBy;
 	private Date updatedAt;
-	private String updatedby;
+	private String updatedBy;
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
@@ -96,10 +96,10 @@ public class User {
 	
 	@Column(name = "updated_by", nullable = false)
 	@LastModifiedBy
-	public String getUpdatedby() {
-		return updatedby;
+	public String getUpdatedBy() {
+		return updatedBy;
 	}
-	public void setUpdatedby(String updatedby) {
-		this.updatedby = updatedby;
+	public void setUpdatedBy(String updatedBy) {
+		this.updatedBy = updatedBy;
 	}
 }

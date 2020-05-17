@@ -64,7 +64,7 @@ public class SpringBootCrudRestApplicationTests {
 		user.setFirstName("admin");
 		user.setLastName("admin");
 		user.setCreatedBy("admin");
-		user.setUpdatedby("admin");
+		user.setUpdatedBy("admin");
 
 		ResponseEntity<User> postResponse = restTemplate.postForEntity(getRootUrl() + "/users", user, User.class);
 		assertNotNull(postResponse);

@@ -21,7 +21,7 @@ Sample Response Json :
     "createdAt": 1516197019198,
     "createdBy": "sm_user",
     "updatedAt": 1516197019198,
-    "updatedby": "sm_user"
+    "updatedBy": "sm_user"
 }
 --------------------------------------------------------------------------
 Update Collector - http://localhost:8080/springbootcrudrest/api/v1/users/1
@@ -46,7 +46,7 @@ Sample Response Json :
     "createdAt": 1516195877000,
     "createdBy": "sm_user",
     "updatedAt": 1516196212491,
-    "updatedby": "sm_user"
+    "updatedBy": "sm_user"
 }
 --------------------------------------------------------------------------
 Get Collector - http://localhost:8080/springbootcrudrest/api/v1/users/1
@@ -64,7 +64,7 @@ Sample Response Json :
     "createdAt": 1516195877000,
     "createdBy": "sm_user",
     "updatedAt": 1516196212000,
-    "updatedby": "sm_user"
+    "updatedBy": "sm_user"
 }
 
 --------------------------------------------------------------------------
@@ -84,7 +84,7 @@ Sample Response Json :
         "createdAt": 1516197019000,
         "createdBy": "sm_user",
         "updatedAt": 1516197078000,
-        "updatedby": "sm_user"
+        "updatedBy": "sm_user"
     },
     {
         "id": 2,
@@ -95,7 +95,7 @@ Sample Response Json :
         "createdAt": 1516197065000,
         "createdBy": "sm_user",
         "updatedAt": 1516197065000,
-        "updatedby": "sm_user"
+        "updatedBy": "sm_user"
     }
 ]
 --------------------------------------------------------------------------
